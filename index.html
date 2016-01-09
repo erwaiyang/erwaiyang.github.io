@@ -14,15 +14,17 @@
 	<header>
 		<img class="logo" src="./images/logo.png" />
 		<h1>Erwai Yang</h1>
-		<nav>
-			<ul>
-				<a href="http://erwaiyang.github.io/blog"><li>Blog</li></a>
-				<li>Experience</li>
-				<li>Projects</li>
-				<li>Hackathon</li>
-				<li>About Me</li>
-			</ul>
-		</nav>
+		<div id="navbar-wrapper">
+			<nav>
+				<ul>
+					<a href="http://erwaiyang.github.io/blog"><li>Blog</li></a>
+					<li>Experience</li>
+					<li>Projects</li>
+					<li>Hackathon</li>
+					<li>About Me</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<div class="wrap">	
@@ -77,11 +79,28 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/typed.min.js"></script>
 	<script type="text/javascript">
+		var strings = [];
+		$("#typewriter p").each(function(i){
+			strings.push($(this).html());
+		});
+
 		$(document).ready(function(){
-			var strings = [];
-			$("#typewriter p").each(function(i){
-				strings.push($(this).html());
-			});			
+
+			var navTop = ($('nav').offset().top + $('nav').height() );
+			alert($('nav').height());
+
+			$(window).scroll(function () { 
+
+				if ($(window).scrollTop() > navTop) {
+					$('#navbar-wrapper').addClass('navbar-fixed');
+				}
+
+				if ($(window).scrollTop() < navTop) {
+					$('#navbar-wrapper').removeClass('navbar-fixed');
+				}
+			});
+
+						
 			$(function(){
 				$("#typewriter").show().typed({
 					strings: strings,
