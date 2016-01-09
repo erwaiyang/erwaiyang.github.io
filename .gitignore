@@ -1,0 +1,10 @@
+### For Mac OS X ###
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+####################

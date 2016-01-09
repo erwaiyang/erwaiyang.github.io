@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Erwai's official website.  Programming, design, and hackathon.">
+	<title>ERWAI the Programmer</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="./stylesheets/screen.css" />
+</head>
+<body>
+
+	<header>
+		<img class="logo" src="./images/logo.png" />
+		<h1>Erwai Yang</h1>
+		<nav>
+			<ul>
+				<a href="http://erwaiyang.github.io/blog"><li>Blog</li></a>
+				<li>Experience</li>
+				<li>Projects</li>
+				<li>Hackathon</li>
+				<li>About Me</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="wrap">	
+		<article>
+			<div id="typewriter" style="display: none;">
+				<p>Welcome!</p>
+				<p>Here's Erwai.</p>
+				<p>I'm a programmer.</p>
+				<p>Wanna know about me?</p>
+				<p>Let's start with links!&#8593;&#8593;</p>
+			</div>
+		</article>
+		<aside>		
+			<div class="my-img">
+				<img class="img-circle" src="images/headshot.jpg" alt="my picture" />
+			</div>
+			<div class="intro">
+				<p><strong>Erwai</strong> @ Taipei, Taiwan</p>
+				<p><em>Android Developer, Full-stack Developer</em></p>
+			</div>
+			<div class="social">
+				<ul>
+					<li class="social__list-item">
+						<a href="https://www.linkedin.com/in/jeanycyang">
+							<span class="linkedin"></span>
+						</a>
+					</li>
+					<li class="social__list-item">
+						<a href="https://bitbucket.org/erwaiyang/">
+							<span class="bitbucket"></span>
+						</a>
+					</li>
+					<li class="social__list-item">
+						<a href="https://github.com/erwaiyang">
+							<span class="github"></span>
+						</a>
+					</li>	
+					<li class="social__list-item">
+						<a href="http://stackoverflow.com/users/1951139/erwai">
+							<span class="stackoverflow"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+	</div>
+
+	<footer>
+		<p>Copyright &copy; 2016 Erwai Yang (Jean Yang). All Wrongs Reserved.</p>
+	</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/typed.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var strings = [];
+			$("#typewriter p").each(function(i){
+				strings.push($(this).html());
+			});			
+			$(function(){
+				$("#typewriter").show().typed({
+					strings: strings,
+					typeSpeed: 0
+				});
+			});
+		});
+	</script>
+</body>
+</html>
