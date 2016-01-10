@@ -5,40 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Erwai's official website.  Programming, design, and hackathon.">
 	<title>ERWAI the Programmer</title>
+	
+	<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="./stylesheets/screen.css" />
 </head>
 <body>
 
+	<div id="scrollToTop"><span>&#8613;</span></div>
+	
+	<div id="overall">
+		<div class="parent">
+			<div class="center">
+				<hr id="progress" />
+			</div>
+		</div>
+	</div>
+
 	<header>
 		<img class="logo" src="./images/logo.png" />
 		<h1>Erwai Yang</h1>
+		<div id="sticky-helper"></div>
 		<div id="navbar-wrapper">
+			<div>
+				<a id="push-menu">
+					<img id="headshot" src="images/headshot.jpg" />
+				</a>
+			</div>
 			<nav>
 				<ul>
-					<a href="http://erwaiyang.github.io/blog"><li>Blog</li></a>
-					<li>Experience</li>
-					<li>Projects</li>
-					<li>Hackathon</li>
-					<li>About Me</li>
+					<a href="#projects"><li>Projects</li></a>
+					<a href="#hackathon"><li>Hackathon</li></a>
+					<a href="#experience"><li>Experience</li></a>
+					<a href="http://erwaiyang.github.io/blog/about/"><li>About<span class="external-link icon"></span></li></a>
+					<a href="http://erwaiyang.github.io/blog"><li>Blog<span class="external-link icon"></span></li></a>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<div class="wrap">	
-		<article>
-			<div id="typewriter" style="display: none;">
-				<p>Welcome!</p>
-				<p>Here's Erwai.</p>
-				<p>I'm a programmer.</p>
-				<p>Wanna know about me?</p>
-				<p>Let's start with links!&#8593;&#8593;</p>
-			</div>
-		</article>
-		<aside>		
-			<div class="my-img">
+	<div class="wrap">
+
+		<aside>
+
+			<div id="hint">
+				[ <a href="#"> x click here to close x</a> ]
+			</div>		
+			<div class="my-img" href="#">
 				<img class="img-circle" src="images/headshot.jpg" alt="my picture" />
 			</div>
 			<div class="intro">
@@ -47,6 +61,11 @@
 			</div>
 			<div class="social">
 				<ul>
+					<li class="social__list-item">
+						<a href="mailto:bdlas321@gmail.com">
+							<span class="email"></span>
+						</a>
+					</li>
 					<li class="social__list-item">
 						<a href="https://www.linkedin.com/in/jeanycyang">
 							<span class="linkedin"></span>
@@ -69,16 +88,193 @@
 					</li>
 				</ul>
 			</div>
+			<div id="my-field">
+				<p class="tags">
+					<span class="tag">HTML5</span>
+					<span class="tag">CSS3</span>
+					<span class="tag">SASS/Compass</span>
+					<span class="tag">jQuery</span>
+					<span class="tag">node.js</span>
+					<span class="tag">PHP</span>
+					<span class="tag">MySQL</span>
+					<span class="tag">MongoDB</span>
+					<span class="tag">Java</span>
+					<span class="tag">Android</span>
+					<span class="tag">RWD</span>
+				</p>
+			</div>
 		</aside>
+
+		<article>
+			<div id="typewriter">
+				<p>Welcome!</p>
+				<p>Here's Erwai.</p>
+				<p>I'm a programmer.</p>
+				<p>Wanna know about me?</p>
+				<p>Let's start with links!&#8593;&#8593; :)</p>
+			</div>
+			<section id="projects">
+				<h2>Projects</h2>
+				<ul>
+					<li>
+						<strong>Pili Heros Card Maker</strong>
+						<span class="icons">
+							<a href="https://github.com/erwaiyang/PiliCardMaker/tree/gh-pages">
+								<span class="github icon"></span>
+							</a>
+							<a href="http://erwaiyang.github.io/PiliCardMaker/">
+								<span class="link icon"></span>
+							</a>
+						</span>
+						<p class="tags">
+							<span class="tag">javascript</span>
+							<span class="tag">jQuery</span>
+							<span class="tag">bootstrap</span>
+							<span class="tag">fabric.js</span>
+						</p>
+						<p>A project just for fun.  Make everyone able to make his/her own character cards of a mobile game named Pili Heros (Zealotdigital Inc.).</p>
+					</li>
+					<li>
+						<strong>Clear - Personality Test</strong>						
+						<span class="icons">
+							<a href="https://github.com/erwaiyang/Clear-Personality-Test">
+								<span class="github icon"></span>
+							</a>
+							<a href="http://erwaiyang.github.io/Clear-Personality-Test/">
+								<span class="link icon"></span>
+							</a>
+						</span>
+						<p class="tags">
+							<span class="tag">javascript</span>
+							<span class="tag">gulp.js</span>
+							<span class="tag">SASS</span>
+							<span class="tag">jQuery</span>
+							<span class="tag">semantic-ui</span>
+							<span class="tag">git</span>
+						</p>
+						<p>
+							I did this project for my best friend. She's an intern of Clear App.  It took me 3 hours to finish.
+						</p>
+					</li>
+					<li>
+						<strong>Erwai's Website Template</strong>						<span class="icons">
+							<a href="https://github.com/erwaiyang/website-template">
+								<span class="github icon"></span>
+							</a>
+						</span>
+						<p class="tags">
+							<span class="tag">javascript</span>
+							<span class="tag">gulp.js</span>
+							<span class="tag">node.js</span>
+							<span class="tag">SASS/Compass</span>
+							<span class="tag">susy</span>
+							<span class="tag">TDD/BDD</span>
+							<span class="tag">git</span>
+						</p>
+						<p>Clone this and start a website project happily :)</p>
+					</li>
+					<li>
+						<strong>A Helper/Plugin App for a Mobile Game</strong>
+						<p class="tags">
+							<span class="tag">Android</span>
+							<span class="tag">Java</span>
+							<span class="tag">SQLite</span>
+							<span class="tag">Multi-thread</span>
+							<span class="tag">git</span>
+						</p>
+						<p>
+							It's a private project.  If I am able to meet you face-to-face, I can show it to you. :(
+						</p>
+					</li>
+				</ul>
+			</section>
+			
+			<section id="hackathon">
+				<h2>Hackathon</h2>
+
+				<ul>
+					<li>
+						<strong>NCCU x NTUST Hackathon 2015</strong>
+						<em>Group Champion</em>
+						<span class="link icon"></span>
+					</li>
+					<li>
+						<strong>Future City Workshop 2015</strong>
+						<em>Champion</em>
+						<span class="link icon"></span>
+					</li>
+					<li>
+						<strong>HackNTU 2015</strong>
+						<em>#8 out of 250 teams</em>
+						<span class="link icon"></span>
+					</li>
+					<li>
+						<strong>MediaTek Mobile Hero Contest 2015</strong>
+						<em>Nominated</em>
+						<span class="link icon"></span>
+					</li>
+					<li>
+						<strong>TCA Hackathon</strong>
+						<em>Nominated</em>
+						<span class="link icon"></span>
+					</li>
+					<li>
+						<strong>DBS Hackthon</strong>
+						<span class="link icon"></span>
+					</li>
+				</ul>
+			</section>
+
+			<section id="experience">
+				<h2>Experience</h2>
+				<ul>
+					<li>
+						<strong>Java Programmer</strong> @ V2 tech
+						<p class="tags">
+							<span class="tag">Java Beans</span>
+							<span class="tag">JSP</span>
+							<span class="tag">Tomcat</span>
+						</p>
+						<p>Help senior programmer refactoring a project from other teams.</p>
+					</li>
+					<li>
+						<strong>Back-end Engineer</strong> @ V2 tech
+						<p class="tags">
+							<span class="tag">Ajax</span>
+							<span class="tag">jQuery</span>
+							<span class="tag">PHP</span>
+							<span class="tag">MySQL</span>
+						</p>
+						<p>Design APIs for commercial websites and communicate with front-end engineers.</p>
+					</li>
+					<li>
+						<strong>Technical Adviser</strong> @ MakerPRO
+						<p class="tags">
+							<span class="tag">PHP</span>
+							<span class="tag">MySQL</span>
+							<span class="tag">shell script</span>
+							<span class="tag">composer</span>
+							<span class="tag">WordPress</span>
+							<span class="tag">git</span>
+						</p>
+						<p>Refactor the official blog; Establish the standard progress of deployment; Technical support.</p>
+					</li>
+				</ul>
+			</section>
+		</article>
 	</div>
 
 	<footer>
+		<p>Fonts credit to <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>. Icons from <a href="https://simpleicons.org/" target="_blank">Simple Icons</a> and <a href="http://www.flaticon.com/" target="_blank">flaticon</a>.</p>
 		<p>Copyright &copy; 2016 Erwai Yang (Jean Yang). All Wrongs Reserved.</p>
 	</footer>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/typed.min.js"></script>
 	<script type="text/javascript">
+
+		$('#progress').fadeTo(1000, 0.5, function() { $('.element').fadeTo(800, 1); });
+
 		var strings = [];
 		$("#typewriter p").each(function(i){
 			strings.push($(this).html());
@@ -86,27 +282,72 @@
 
 		$(document).ready(function(){
 
+			$('#progress').animate({width:'toggle'}, 'slow');
+			$('#overall').animate({opacity: 0.4}, 'slow', function(){
+				$('#overall').hide();
+				typewriter();
+			});
+
 			var navTop = ($('nav').offset().top + $('nav').height() );
 
 			$(window).scroll(function () { 
 
 				if ($(window).scrollTop() > navTop) {
+					$('#sticky-helper').css('height', $('#navbar-wrapper').height() );
 					$('#navbar-wrapper').addClass('navbar-fixed');
 				}
 
 				if ($(window).scrollTop() < navTop) {
+					$('#sticky-helper').css('height', 0 );
 					$('#navbar-wrapper').removeClass('navbar-fixed');
 				}
 			});
 
-						
-			$(function(){
-				$("#typewriter").show().typed({
-					strings: strings,
-					typeSpeed: 0
-				});
+			var asideLeft = ($('aside').offset().left);
+
+			$(window).resize(function(){
+				asideLeft = ($('aside').offset().left);
 			});
+						
+			$('a#push-menu').click(function(e){
+				e.preventDefault();
+				$('aside').animate({
+					left: 0
+				}, 200);    
+				$('body').animate({
+					left: - (asideLeft)  ,
+
+				}, 200);
+			});
+
+			$('#hint a').click(function(e){
+				e.preventDefault();
+					$('aside').animate({
+						left: asideLeft
+					}, 200);    
+					$('body').animate({
+						left: 0,
+					}, 200);
+			});
+
+			$('#scrollToTop').click(function(){
+				$('html, body').delay(150).animate({
+					'scrollTop': 0
+				}, 500);
+			});
+
 		});
+
+
+
+		typewriter = function(){
+		$("#typewriter")
+			.typed({
+				strings: strings,
+				typeSpeed: 0
+			})
+			.animate({opacity: 1}, 'slow');
+		};
 	</script>
 </body>
 </html>
