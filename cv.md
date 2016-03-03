@@ -1,7 +1,12 @@
 ﻿# 經歷
 - V2 Tech - Java 工程師：負責修改政府外包的網頁、協助資深工程師
 - V2 Tech - PHP MySQL 後端工程師：負責外包的專案
-- MakerPro - 技術顧問：目前負責重整官方Blog、建立維護、備份、發布的標準流程
+- MakerPro - 技術顧問：負責重整官方Blog、建立維護、備份、發布的標準流程（已完成）
+- MakerPro - 負責Project Plus(預計5月上線的一項產品)部分頁面的切版工作（jade, bootstrap, jQuery皆有用到）
+
+# 學歷
+- 國立師大附中 第三類組 畢業
+- 國立台灣大學 經濟學系 在學
 
 # 競賽/獲獎
 - 政大x台科大黑客松(2015)：Team HSNU - Dress Me! __分組冠軍__
@@ -38,10 +43,11 @@
 - Unix-like Command
 - Gitbook
 - Markdown
+- webpack
 
 # 正在學/非常有興趣的領域
 - Angular.js
-- React.js
+- React.js + Redux
 - React Native (especially for iOS dev)
 
 # 跟程式有點關係的
@@ -78,7 +84,11 @@
 
 我從小自學，真心熱愛程式，也因此希望之後能離開經濟系，接受正式的資工教育，把實作外的數學基礎、理論基礎都打好；目前最大的希望就是能找到一份工程師的實習或是兼職！
 
-[如果您對我更長更長的自傳有興趣的話，請到這裡觀看，謝謝！](https://github.com/erwaiyang/erwaiyang.github.io/blob/master/me.md)
+__如果能找到一份程式設計師的正職工作，那麼更好了！__
+
+目前我對node.js後端工程工作、前端工程師、Android工程師都有興趣；不過我最大的興趣還是在前端工程上。
+
+（[如果您對我更長更長的自傳有興趣的話，請到這裡觀看，謝謝！](https://github.com/erwaiyang/erwaiyang.github.io/blob/master/me.md)）
 
 ## 我的優勢
 ### 1. 充滿熱情
@@ -114,3 +124,5 @@
 2. [我的個人網站](http://erwaiyang.github.io/)
 3. [我的Blog](http://erwaiyang.github.io/blog) 
 4. [StackOverflow](http://stackoverflow.com/users/1951139/erwai)
+5. [FreeCodeCamp](http://www.freecodecamp.com/erwaiyang) (完成多道演算法題目)
+6. [LinkedIn](https://www.linkedin.com/in/jeanycyang)
