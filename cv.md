@@ -9,11 +9,11 @@
 - 國立台灣大學 經濟學系 在學
 
 # 競賽/獲獎
-- 政大x台科大黑客松(2015)：Team HSNU - Dress Me! __分組冠軍__
-- MIT Media Lab - Future City Workshop(2015)：GoodWill __總冠軍（最佳團隊獎）__
-- HackNTU 台大黑客松(2015)：智慧驛站 __#8 out of 250 teams__
-- 聯發科物聯網/穿戴式競賽(2015)：智慧驛站 __佳作__
-- 智慧節電創意黑客松競賽(2015)：電力省長 __前20，佳作__
+- 政大x台科大黑客松(2015)：Team HSNU - Dress Me! __分組冠軍__ [官方FB得獎合照](https://www.facebook.com/NCCUEA/photos/a.708581332598704.1073741837.590410167749155/708585515931619/?type=3&theater)
+- MIT Media Lab - Future City Workshop(2015)：GoodWill __總冠軍（最佳團隊獎）__ [行政院新聞稿](https://www.facebook.com/ey.gov.tw/photos/a.449506128410605.115211.135213893173165/1047029958658216/?type=3&permPage=1)
+- HackNTU 台大黑客松(2015)：智慧驛站 __#8 out of 250 teams__ [報導](http://www.techbang.com/posts/25444-hacker-song-hacker-song-hackathon-at-national-taiwan-university-hackntu)
+- 聯發科物聯網/穿戴式競賽(2015)：智慧驛站 __佳作__ [得獎名單](https://www.mobilehero.com/mediatek2015/)
+- 智慧節電創意黑客松競賽(2015)：電力省長 __前20，佳作__ [官方FB得獎公告](https://www.facebook.com/EnergySaving.Taipei/photos/a.693856850714529.1073741828.688041607962720/731157560317791/?type=3&theater)
 - DBS Hackathon 星展銀行黑客松(2015)：Better Life
 
 # Fields
