@@ -15,6 +15,7 @@
 - 聯發科物聯網/穿戴式競賽(2015)：智慧驛站 __佳作__ [得獎名單](https://www.mobilehero.com/mediatek2015/)
 - 智慧節電創意黑客松競賽(2015)：電力省長 __前20，佳作__ [官方FB得獎公告](https://www.facebook.com/EnergySaving.Taipei/photos/a.693856850714529.1073741828.688041607962720/731157560317791/?type=3&theater)
 - DBS Hackathon 星展銀行黑客松(2015)：Better Life
+- Smart City Hackathon (2016)：Power Hackers - Smart Home Sockets [YouTube](https://www.youtube.com/watch?v=86VJzv8P3vQ)
 
 # Fields
 - 後端部分
@@ -24,16 +25,21 @@
 	- Java
 - 手機程式
 	- Android
+	- React Native
 - 前端部分
 	- jQuery / Javascript
 	- CSS3
 	- SASS / Compass
 	- Responsive Web Design
+	- React.js
 - 套件/其他
 	- WordPress
 	- Bootstrap
 	- Semantic UI
 	- susy
+- TDD/BDD
+        - mocha 
+        - Jasmine
 
 # 熟悉的「工具」
 - Gulp.js
@@ -44,11 +50,6 @@
 - Gitbook
 - Markdown
 - webpack
-
-# 正在學/非常有興趣的領域
-- Angular.js
-- React.js + Redux
-- React Native (especially for iOS dev)
 
 # 跟程式有點關係的
 - Adobe Photoshop
@@ -88,8 +89,6 @@ __如果能找到一份程式設計師的正職工作，那麼更好了！__
 
 目前我對node.js後端工程工作、前端工程師、Android工程師都有興趣；不過我最大的興趣還是在前端工程上。
 
-（[如果您對我更長更長的自傳有興趣的話，請到這裡觀看，謝謝！](https://github.com/erwaiyang/erwaiyang.github.io/blob/master/me.md)）
-
 ## 我的優勢
 ### 1. 充滿熱情
 從小到大，一路走來都是自學。真心熱愛程式。
@@ -120,9 +119,8 @@ __如果能找到一份程式設計師的正職工作，那麼更好了！__
 
 # Links
 
-1. [完整自傳](https://github.com/erwaiyang/erwaiyang.github.io/blob/master/me.md)
-2. [我的個人網站](http://erwaiyang.github.io/)
-3. [我的Blog](http://erwaiyang.github.io/blog) 
-4. [StackOverflow](http://stackoverflow.com/users/1951139/erwai)
-5. [FreeCodeCamp](http://www.freecodecamp.com/erwaiyang) (完成多道演算法題目)
-6. [LinkedIn](https://www.linkedin.com/in/jeanycyang)
+1. [我的個人網站](http://erwaiyang.github.io/)
+2. [我的Blog](http://erwaiyang.github.io/blog) 
+3. [StackOverflow](http://stackoverflow.com/users/1951139/erwai)
+4. [FreeCodeCamp](http://www.freecodecamp.com/erwaiyang) (完成多道演算法題目)
+5. [LinkedIn](https://www.linkedin.com/in/jeanycyang)
