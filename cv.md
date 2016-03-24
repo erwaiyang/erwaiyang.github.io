@@ -3,6 +3,7 @@
 - V2 Tech - PHP MySQL 後端工程師：負責外包的專案
 - MakerPro - 技術顧問：負責重整官方Blog、建立維護、備份、發布的標準流程（已完成）
 - MakerPro - 負責Project Plus(預計5月上線的一項產品)部分頁面的切版工作（jade, bootstrap, jQuery皆有用到）
+- Colorgy - Junior JavaScript Developer 負責React Native App 以及 以Sails.js建構之聊天程式後台
 
 # 學歷
 - 國立師大附中 第三類組 畢業
